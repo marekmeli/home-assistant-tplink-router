@@ -1,5 +1,5 @@
 {
-  "name": "TP-Link Router",
+  "name": "TP-Link Router for Archer VX1800v",
   "filename": "tplink_router.zip",
   "homeassistant": "2023.9.3",
   "hide_default_branch": true,
