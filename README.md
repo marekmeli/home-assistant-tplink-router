@@ -1,20 +1,20 @@
 # Tp-Link router integration for Home Assistant - Custom modification for Archer VX1800v
 
-[![version](https://img.shields.io/github/manifest-json/v/AlexandrErohin/home-assistant-tplink-router?filename=custom_components%2Ftplink_router%2Fmanifest.json&color=slateblue)](https://github.com/AlexandrErohin/home-assistant-tplink-router/releases/latest)
-[![HACS](https://img.shields.io/badge/HACS-Default-orange.svg?logo=HomeAssistantCommunityStore&logoColor=white)](https://github.com/hacs/integration)
+[![version](https://img.shields.io/github/manifest-json/v/marekmeli/home-assistant-tplink-router?filename=custom_components%2Ftplink_router%2Fmanifest.json&color=slateblue)](https://github.com/marekmeli/home-assistant-tplink-router/releases/latest)
+[![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg?logo=HomeAssistantCommunityStore&logoColor=white)](https://my.home-assistant.io/redirect/hacs_repository/?owner=marekmeli&repository=home-assistant-tplink-router&category=integration)
 [![Community Forum](https://img.shields.io/static/v1.svg?label=Community&message=Forum&color=41bdf5&logo=HomeAssistant&logoColor=white)](https://community.home-assistant.io/t/custom-component-tp-link-router-integration)
 
 Home Assistant component for TP-Link and Mercusys routers administration based on the [TP-Link Router API](https://github.com/AlexandrErohin/TP-Link-Archer-C6U)
 
 > [!WARNING]
-> A new router firmware update breaks the compatibility. Please try [this fix](https://github.com/AlexandrErohin/home-assistant-tplink-router/issues/220#issuecomment-3396658175) 
+> A new router firmware update breaks the compatibility. Please try [this fix](https://github.com/marekmeli/home-assistant-tplink-router/issues/220#issuecomment-3396658175) 
 
 > [!WARNING]
 > Please temporarily disable the integration before accessing the router admin page. TP-Link admin page only allows one user at a time. This integration will log you out of the admin page every time it scans for updates (every 30s by default).
 
 See [Supported routers](#supports)
 
-<img src="https://raw.githubusercontent.com/AlexandrErohin/home-assistant-tplink-router/master/docs/media/sensors.png" width="48%"> <img src="https://raw.githubusercontent.com/AlexandrErohin/home-assistant-tplink-router/master/docs/media/switches.png" width="48%">
+<img src="https://raw.githubusercontent.com/marekmeli/home-assistant-tplink-router/main/docs/media/sensors.png" width="48%"> <img src="https://raw.githubusercontent.com/marekmeli/home-assistant-tplink-router/main/docs/media/switches.png" width="48%">
 
 ## Components
 ### Events
@@ -154,9 +154,9 @@ You can get the ID from the URL when you visit the tplink device page
 
 Have [HACS](https://hacs.xyz/) installed, this will allow you to update easily.
 
-<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=AlexandrErohin&repository=home-assistant-tplink-router&category=integration" target="_blank"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store." /></a>
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=marekmeli&repository=home-assistant-tplink-router&category=integration" target="_blank"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store." /></a>
 
-or go to <b>Hacs</b> and search for `TP-Link Router`.
+or add this custom repository in HACS: `https://github.com/marekmeli/home-assistant-tplink-router` with category `Integration`.
 
 ### Manual
 
@@ -169,7 +169,7 @@ TP-Link Router is configured via the GUI. See [the HA docs](https://www.home-ass
 
 The default data is preset already.
 
-<img src="https://raw.githubusercontent.com/AlexandrErohin/home-assistant-tplink-router/master/docs/media/config_flow.png" width="48%">
+<img src="https://raw.githubusercontent.com/marekmeli/home-assistant-tplink-router/main/docs/media/config_flow.png" width="48%">
 
 1. Go to the <b>Settings</b>-><b>Devices & services</b>.
 2. Click on `+ ADD INTEGRATION`, search for `TP-Link Router`.
@@ -183,7 +183,7 @@ NOTE!
 2. If you use `https` connection to your router you may get error `certificate verify failed: EE certificate key too weak`. To fix this - unset `Verify ssl`
 3. Use Local Password which is for Log In with Local Password. Login with TP-LINK ID doesnt work
 
-<img src="https://raw.githubusercontent.com/AlexandrErohin/home-assistant-tplink-router/master/docs/media/router.png" width="30%">
+<img src="https://raw.githubusercontent.com/marekmeli/home-assistant-tplink-router/main/docs/media/router.png" width="30%">
 
 4. If you got error - `check if the default router username is correct` The default username for most routers is `admin`. Some routers have the default username - `user`.
 5. If you got error - `use web encrypted password instead` Read [web encrypted password](#encrypted_pass)
