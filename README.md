@@ -35,6 +35,8 @@ If you forget to enable it back - it would be automatically enable after 20 minu
  - 2.4Ghz IoT wifi network Enable/Disable
  - 5Ghz IoT wifi network Enable/Disable
  - 6Ghz IoT wifi network Enable/Disable
+ - VPN Client (for some routers)
+ - Control VPN Server List (for some routers)
 
 ### Sensors
  - Total amount of wired clients
@@ -255,6 +257,7 @@ To do that:
 - Archer C3200 v1
 - Archer C5400X V1
 - Archer C6 (v2.0, v3.0, v3.20, 4.0)
+- Archer C50 v4
 - Archer C60 v2.0
 - Archer C64 1.0
 - Archer C6U v1.0
@@ -275,6 +278,7 @@ To do that:
 - Archer VX231v v1.0
 - BE11000 2.0
 - CPE210 v2.0
+- CPE220 v3.0
 - Deco BE25 1.0
 - Deco M4 2.0
 - Deco M4R 2.0
@@ -303,6 +307,7 @@ To do that:
 - RE330 v1
 - TD-W9960 (v1, V1.20)
 - TL-7DR6430 1.0
+- TL-7DR7270 1.0 (firmware 1.0.18+, new auth)
 - TL-MR100 v2.0
 - TL-MR100-Outdoor v1.0
 - TL-MR105
@@ -315,6 +320,7 @@ To do that:
 - TL-SG108E v6.0
 - TL-WA1201 3.0
 - TL-WA3001 v1.0
+- TL-WR841N v14
 - TL-WDR3600 V1
 - TL-XDR3010 V2
 - TL-XDR5410 1.0
